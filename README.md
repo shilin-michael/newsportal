@@ -1,4 +1,4 @@
-This is the user interface for the survey tool
+This is the user interface for the news portal
 
 ## Prerequisites
 
