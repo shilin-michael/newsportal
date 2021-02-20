@@ -1,0 +1,37 @@
+.card-wrapper {
+  height: 100px;
+  display: flex;
+  padding: 10px;
+  .thumbnail {
+    width: 200px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+  }
+  .newsbody {
+    padding-left: 10px;
+  }
+}
+  
+.pagination {
+  height: 50px;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .active {
+    background-color: #080000;
+    color: #fff;
+  }
+  .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    cursor: pointer;
+  }
+  .pagewrapper {
+    display: flex;
+    justify-content: center;
+  }
+}
